@@ -28,6 +28,10 @@
 	margin-top: 0px;
 }
 
+.Title span {
+	color: var(--titlecolor);
+}
+
 .Image {
 padding: 0px 30px;
 margin-top: -30px;

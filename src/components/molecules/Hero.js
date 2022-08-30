@@ -9,12 +9,14 @@ const Hero = () => {
       <div className={styles.Title}>
         <h1>Hello, I'm Israel, Software Dev</h1>
         <p>
-          I am passionate about helping leaders who want to STRENGTHEN and
-          STANDARDIZE their company processes.
+          I am passionate about helping leaders who want to{' '}
+          <span>strengthen</span> and <span>standardize</span> their company
+          processes.
         </p>
         <p>
-          I believe in CONTINUOUS IMPROVEMENT and in TECHNOLOGY as tools to
-          increase the competitiveness of companies.
+          I believe in <span>continuous improvement</span> and in{' '}
+          <span>technology</span> as tools to increase the competitiveness of
+          companies.
         </p>
       </div>
       <div className={styles.Image}>
