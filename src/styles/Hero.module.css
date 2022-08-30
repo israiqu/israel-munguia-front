@@ -1,0 +1,74 @@
+.Hero_wrapper {
+	height: auto;
+	display: flex;
+  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Title {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+	padding: 20px 30px;
+	max-width: 500px;
+}
+
+.Title h1 {
+	text-align: center;
+	font-size: 3.2rem;
+	color: var(--titlecolor);
+}
+
+.Title p {
+	text-align: center;
+	font-size: 2rem;
+	color: var(--titlecolor2);
+	margin-top: 0px;
+}
+
+.Image {
+padding: 0px 30px;
+margin-top: -30px;
+}
+
+@media (min-width: 600px) {
+	.Title {
+	padding: 0px 30px;
+	max-width: 650px;
+}
+
+.Title h1 {
+	font-size: 5.2rem;
+	line-height: 1.1;
+}
+
+.Title p {
+		font-size: 2.2rem;
+}
+}
+
+@media (min-width: 905px) {
+	.Hero_wrapper {
+		height: 560px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+}
+
+	.Title {
+		max-width: 600px;
+		padding: 50px;
+}
+
+	.Title h1 {
+		font-size: 6.4rem;
+		text-align: left;
+}
+
+	.Title p {
+		text-align: left;
+}
+}

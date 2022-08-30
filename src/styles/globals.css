@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  max-width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: -apple-system, Verdana, Poppins, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Neue, sans-serif;
+}
+
+body {
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
+  width: 1450px;
+	margin: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family:'Poppins', -apple-system, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bgcolor: #0F1429;
+    --titlecolor: #07d9dd;
+    --titlecolor2: #ededed;
+    --textcolor: #8e91a4;
+    --linkcolor: #8b71e0;
+    
+    --btncolor: #69ffff;
+    --btncolorhover: #00a7ab;
+
+    --bgcolor2: #4760c9;
+    --textcolor2: #dfeaff;
+    --linkcolor2: #ffe2f2;
+  }
+  html {
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      --bgcolor: #4760c9;
+      --titlecolor: #07d9dd;
+      --titlecolor2: #ededed;
+      --textcolor: #dfeaff;
+      --linkcolor: #ffe2f2;
+
+      --btncolor: #0F1429;
+      --btncolorhover: #363a52;
+
+      --bgcolor2: #fcfcfc;
+      --textcolor2: #6d6e7d;
+      --linkcolor2: #7863c4;
+
+  }
+  html {
+    color-scheme: light;
+  }
+}
+
+h1 {
+  font-family:'Poppins', -apple-system, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+}
+
+h2, h3, h4 {
+  font-family:'Poppins', -apple-system, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family:Verdana, -apple-system, Tahoma, sans-serif;
+  font-weight: 400,
+}
