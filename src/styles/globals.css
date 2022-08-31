@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
-
-
 html,
 body {
   padding: 0;
@@ -54,9 +52,9 @@ a {
     --textcolor2: #dfeaff;
     --linkcolor2: #ffe2f2;
   }
-  html {
+  /* html {
     color-scheme: dark;
-  }
+  } */
 }
 
 @media (prefers-color-scheme: light) {
@@ -75,10 +73,22 @@ a {
       --linkcolor2: #7863c4;
 
   }
-  html {
+  /* html {
     color-scheme: light;
-  }
+  } */
 }
+
+  :root {
+    --titlesm: 3.2rem;
+    --titlemd: 5.2rem;
+    --titlexl: 6.4rem;
+    --title2sm: 2.8rem;
+    --title2md: 4.8rem;
+    --title2xl: 5rem;
+    --textsm: 1.8rem;
+    --textmd: 2rem;
+    --textxl: 2.4rem;
+  }
 
 h1 {
   font-family:'Poppins', -apple-system, Geneva, Tahoma, sans-serif;
@@ -92,5 +102,5 @@ h2, h3, h4 {
 
 p {
   font-family:Verdana, -apple-system, Tahoma, sans-serif;
-  font-weight: 400,
+  font-weight: 400;
 }

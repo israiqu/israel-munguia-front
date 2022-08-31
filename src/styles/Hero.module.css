@@ -17,19 +17,21 @@
 
 .Title h1 {
 	text-align: center;
-	font-size: 3.2rem;
+	font-size: var(--titlesm);
 	color: var(--titlecolor);
 }
 
 .Title p {
 	text-align: center;
-	font-size: 2rem;
+	font-size: var(--textmd);
 	color: var(--titlecolor2);
 	margin-top: 0px;
 }
 
 .Title span {
-	color: var(--titlecolor);
+	font-size: var(--textmd);
+	color: var(--textcolor);
+	font-weight: 600;
 }
 
 .Image {
@@ -44,7 +46,7 @@ margin-top: -30px;
 }
 
 .Title h1 {
-	font-size: 5.2rem;
+	font-size: var(--titlemd);
 	line-height: 1.1;
 }
 
@@ -68,7 +70,7 @@ margin-top: -30px;
 }
 
 	.Title h1 {
-		font-size: 6.4rem;
+		font-size: var(--titlexl);
 		text-align: left;
 }
 

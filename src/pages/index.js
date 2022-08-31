@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/molecules/Hero';
+import About from '../components/molecules/About';
 import { MainLayout } from '../components/templates/MainLayout';
 
 
@@ -13,7 +14,7 @@ export default function Home() {
         }>
         
         <Hero />
-
+        <About />
         </MainLayout>
     </React.Fragment>
   );

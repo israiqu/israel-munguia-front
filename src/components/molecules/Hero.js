@@ -10,12 +10,12 @@ const Hero = () => {
         <h1>Hello, I'm Israel, Software Dev</h1>
         <p>
           I am passionate about helping leaders who want to{' '}
-          <span>strengthen</span> and <span>standardize</span> their company
+          <span>STRENGTHEN</span> and <span>STANDARDIZE</span> their company
           processes.
         </p>
         <p>
-          I believe in <span>continuous improvement</span> and in{' '}
-          <span>technology</span> as tools to increase the competitiveness of
+          I believe in <span>CONTINUOUS IMPROVEMENT</span> and in{' '}
+          <span>TECHNOLOGY</span> as tools to increase the competitiveness of
           companies.
         </p>
       </div>
