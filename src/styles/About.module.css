@@ -32,10 +32,13 @@
 	}
 }
 
-
 .container {
 	width: 100px;
 	height: 400px;
 	background-color: #3503c4;
 	border-radius: 20px;
+}
+
+.wrapper h2 {
+	font-size: var(--title2xl);
 }

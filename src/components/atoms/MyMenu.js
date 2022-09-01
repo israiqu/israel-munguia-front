@@ -11,7 +11,7 @@ export const MyMenu = () => {
         </Link>
       </li>
       <li>
-        <Link href='/about'>
+        <Link href='#about'>
           <a>About me</a>
         </Link>
       </li>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import styles from '../../styles/Hero.module.css'
-import Mybtndwload from '../atoms/Mybtndwload';
 
 const Hero = () => {
 	return (

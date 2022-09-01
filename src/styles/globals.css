@@ -52,9 +52,9 @@ a {
     --textcolor2: #dfeaff;
     --linkcolor2: #ffe2f2;
   }
-  /* html {
+  html {
     color-scheme: dark;
-  } */
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -73,9 +73,9 @@ a {
       --linkcolor2: #7863c4;
 
   }
-  /* html {
+  html {
     color-scheme: light;
-  } */
+  }
 }
 
   :root {

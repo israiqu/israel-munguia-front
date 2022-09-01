@@ -4,10 +4,8 @@ import styles from '../../styles/About.module.css'
 
 const about = () => {
 	return (
-    <div className={styles.wrapper}>
-      <div className={styles.Image}>
-        
-      </div>
+    <div id='about' className={styles.wrapper}>
+      <div className={styles.Image}></div>
       <h2>About Me</h2>
       <div className={styles.container}></div>
     </div>
